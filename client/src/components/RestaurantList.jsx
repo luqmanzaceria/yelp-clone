@@ -49,7 +49,7 @@ const RestaurantList = (props) => {
     return (
       <>
         <StarRating rating={restaurant.id} />
-        <span className="text-warning ml-1">{restaurant.count}</span>
+        <span className="text-warning ml-1">({restaurant.count})</span>
       </>
     );
   };

@@ -1,4 +1,3 @@
-import { StarsOutlined } from "@material-ui/icons";
 import React from "react";
 
 const StarRating = ({ rating }) => {

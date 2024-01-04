@@ -2,7 +2,6 @@ import React, { useContext, useEffect } from "react";
 import RestaurantFinder from "../apis/RestaurantFinder";
 import { RestaurantsContext } from "../context/RestaurantsContext";
 import { useHistory } from "react-router-dom";
-import { tr } from "date-fns/locale";
 import StarRating from "./StarRating";
 
 const RestaurantList = (props) => {
